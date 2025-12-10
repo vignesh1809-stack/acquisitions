@@ -1,0 +1,24 @@
+{"level":"info","message":"::1 - - [09/Dec/2025:14:06:43 +0000] \"GET /api HTTP/1.1\" 200 42 \"-\" \"curl/8.6.0\"","service":"acquisitions-api"}
+{"level":"info","message":"User john@example.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: john@example.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [09/Dec/2025:14:07:05 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 104 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"error","message":"Error creating the user: Error: User with this email already exists","service":"acquisitions-api"}
+{"level":"error","message":"Signup error User with this email already exists","service":"acquisitions-api","stack":"Error: User with this email already exists\n    at createUser (file:///Users/svvigneshbalusu/Desktop/learning/acquisitions/src/services/auth.service.js:34:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async signup (file:///Users/svvigneshbalusu/Desktop/learning/acquisitions/src/controllers/auth.controller.js:21:18)"}
+{"level":"info","message":"::1 - - [09/Dec/2025:14:08:06 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 409 31 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User johndoe@example.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: johndoe@example.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [09/Dec/2025:14:08:12 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 103 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User johnd@example.com created successfully","service":"acquisitions-api"}
+{"level":"info","message":"User registered successfully: johnd@example.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [10/Dec/2025:07:19:45 +0000] \"POST /api/auth/sign-up HTTP/1.1\" 201 101 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User johnd@example.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: johnd@example.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [10/Dec/2025:07:19:53 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 113 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [10/Dec/2025:07:20:15 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [10/Dec/2025:08:09:13 +0000] \"POST /health HTTP/1.1\" 404 146 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [10/Dec/2025:08:09:20 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [10/Dec/2025:08:09:27 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [10/Dec/2025:08:09:30 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [10/Dec/2025:08:13:16 +0000] \"GET /health HTTP/1.1\" 200 76 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [10/Dec/2025:08:13:32 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.49.1\"","service":"acquisitions-api"}
